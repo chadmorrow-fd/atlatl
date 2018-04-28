@@ -3,7 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="908a6df7-31e4-4a43-8324-508891a6b9aa" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/chadmorrow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/atlatl-js/atlatl-js.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/atlatl-jvm/atlatl-jvm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/atlatl.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atlatl-js/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atlatl-js/src/main/kotlin/client.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atlatl-js/src/main/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atlatl-js/webpack.config.d/minify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atlatl-jvm/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atlatl-jvm/src/main/kotlin/server.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/common/types/firstName.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/common/types/helloWorld.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -139,8 +170,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1255">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="319">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -1430,12 +1461,12 @@
       <updated>1524698683515</updated>
       <workItem from="1524698685819" duration="4465000" />
       <workItem from="1524763395075" duration="6033000" />
-      <workItem from="1524846771079" duration="5977000" />
+      <workItem from="1524846771079" duration="6591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16475000" />
+    <option name="totallyTimeSpent" value="17089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-1637" width="1440" height="2537" extended-state="6" />
@@ -1461,9 +1492,9 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.502149" visible="true" weight="0.32923833" />
-      <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info active="true" anchor="bottom" content_ui="combo" id="Project" order="13" sideWeight="0.497851" side_tool="true" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.502149" weight="0.32923833" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.49928367" visible="true" weight="0.32964784" />
+      <window_info anchor="bottom" content_ui="combo" id="Project" order="13" sideWeight="0.5007163" side_tool="true" visible="true" weight="0.32964784" />
       <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.22277936" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -1700,8 +1731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1255">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="319">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
