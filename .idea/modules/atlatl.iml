@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="Common (experimental) " useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-common/0.4.2/522e6890cfc800bf7ad8a6c1a6384893ed187f1/kotlinx-serialization-runtime-common-0.4.2.jar:/Users/chadmorrow/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.40/37abadf1cca4450f39672a80d24a379d2fd06356/kotlin-stdlib-common-1.2.40.jar" />
+          <option name="languageVersion" value="1.2" />
+          <option name="apiVersion" value="1.2" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-gradle-serialization-plugin/0.4.2/99f925dc0a799c8dc20ee9046bb85381774e3a7b/kotlinx-gradle-serialization-plugin-0.4.2.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>
