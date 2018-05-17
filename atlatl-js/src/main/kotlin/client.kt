@@ -1,15 +1,15 @@
 import common.types.FirstName
-import org.w3c.dom.HTMLInputElement
-import org.w3c.dom.events.Event
-import react.*
-import react.dom.*
 import kotlinx.html.InputType
 import kotlinx.html.id
 import kotlinx.html.js.onBlurFunction
 import kotlinx.html.js.onChangeFunction
 import kotlinx.html.js.onSubmitFunction
 import kotlinx.serialization.json.JSON
+import org.w3c.dom.HTMLInputElement
+import org.w3c.dom.events.Event
 import org.w3c.fetch.RequestInit
+import react.*
+import react.dom.*
 import kotlin.browser.document
 import kotlin.browser.window
 
@@ -56,11 +56,6 @@ class App : RComponent<RProps, AppState>() {
         }
     }
 
-    /*
-    Yes, this is an absolute ghastly nightmare of a request function. Yes it needs serious refactoring.
-    I left it a mess after fussing around trying to get fetch() to work without success. Ideally, that's
-    what I'd prefer to use. This just got the job done in a hurry.
-     */
     private fun handleSubmit(event: Event) {
         event.preventDefault()
         if (state.firstName.isNotBlank()) {
