@@ -9,8 +9,9 @@ import kotlinx.html.js.onBlurFunction
 import kotlinx.html.js.onChangeFunction
 import kotlinx.html.js.onSubmitFunction
 import kotlinx.serialization.json.JSON
-import org.w3c.xhr.XMLHttpRequest
+import org.w3c.fetch.RequestInit
 import kotlin.browser.document
+import kotlin.browser.window
 
 fun main(args: Array<String>) {
     render(document.getElementById("root")) {
@@ -64,27 +65,27 @@ class App : RComponent<RProps, AppState>() {
         event.preventDefault()
         if (state.firstName.isNotBlank()) {
             val postData = FirstName(firstName = state.firstName)
-            val post = XMLHttpRequest()
-            post.open(method = "POST", url = "http://localhost:7000/")
-            post.setRequestHeader("Access-Control-Allow-Origin", "*")
-            post.send(body = JSON.stringify(postData))
-            post.onreadystatechange = { _ ->
-                if (post.readyState == XMLHttpRequest.DONE && (post.status in 200..299)) {
-                    console.log("Data sent successfully!")
-                    console.log(postData)
-                }
-            }
+            val requestOpts = RequestInit(
+                    method = "POST",
+                    body = JSON.stringify(postData),
+                    referrerPolicy = "",
+                    integrity = ""
+            )
+
+            window.fetch("http://localhost:7000", requestOpts)
+                    .then {
+                        console.log("Data sent successfully!")
+                        console.log(postData)
+                    }
+                    .catch {
+                        console.log(it)
+                    }
         } else {
-            val post = XMLHttpRequest()
-            post.open(method = "GET", url = "http://localhost:7000/")
-            post.setRequestHeader("Access-Control-Allow-Origin", "*")
-            post.send()
-            post.onreadystatechange = { _ ->
-                if (post.readyState == XMLHttpRequest.DONE && (post.status in 200..299)) {
-                    console.log("Data received successfully!")
-                    console.log(post.response)
-                }
-            }
+            window.fetch("http://localhost:7000")
+                    .then {
+                        console.log("Data received successfully!")
+                        console.log(it)
+                    }
         }
     }
 
@@ -128,8 +129,6 @@ class App : RComponent<RProps, AppState>() {
         }
     }
 }
-
-
 
 
 fun RBuilder.app() = child(App::class) {}

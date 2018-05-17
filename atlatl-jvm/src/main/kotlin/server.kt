@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
     The Post route anticipates getting a different common data class, FirstName().
     I'll start by just printing that out to the server stdout.
      */
-    app.get("/") { ctx -> ctx.result(JSON.stringify(HelloWorld())) }
+    app.get("/") { ctx -> ctx.result(JSON.stringify(HelloWorld())).also { println("sent: ${HelloWorld()}") } }
 
     app.post("/") { ctx -> println(ctx.body()) }
 
