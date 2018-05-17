@@ -1,4 +1,5 @@
 import common.types.FirstName
+import kotlinx.css.*
 import kotlinx.html.InputType
 import kotlinx.html.id
 import kotlinx.html.js.onBlurFunction
@@ -9,7 +10,8 @@ import org.w3c.dom.HTMLInputElement
 import org.w3c.dom.events.Event
 import org.w3c.fetch.RequestInit
 import react.*
-import react.dom.*
+import react.dom.render
+import styled.*
 import kotlin.browser.document
 import kotlin.browser.window
 
@@ -46,7 +48,7 @@ class App : RComponent<RProps, AppState>() {
         val target = event.target as HTMLInputElement
         setState {
             touched.add(target.id)
-        }.also { console.log(target.id) }
+        }
     }
 
     private fun handleFirstNameChange(event: Event) {
@@ -86,42 +88,109 @@ class App : RComponent<RProps, AppState>() {
 
     override fun RBuilder.render() {
         val errors = validate(inputs = state.firstName)
-        form {
-            attrs {
-                onSubmitFunction = {
-                    handleSubmit(it)
-                }
+        styledDiv {
+            css {
+                +Styles.root
             }
-            label {
-                +"First Name"
-                input {
-                    attrs {
-                        id = "firstName"
-                        type = InputType.text
-                        placeholder = "Enter first name"
-                        value = state.firstName
-                        onBlurFunction = {
-                            handleBlur(it)
+
+            styledForm {
+                css {
+                    +Styles.form
+                }
+
+                attrs {
+                    onSubmitFunction = {
+                        handleSubmit(it)
+                    }
+                }
+
+                styledLabel {
+                    css {
+                        +Styles.label
+                    }
+                    +"First Name"
+                    styledInput {
+                        css {
+                            +Styles.input
                         }
-                        onChangeFunction = {
-                            handleFirstNameChange(it)
+
+                        attrs {
+                            id = "firstName"
+                            type = InputType.text
+                            placeholder = "Enter first name"
+                            value = state.firstName
+                            onBlurFunction = {
+                                handleBlur(it)
+                            }
+                            onChangeFunction = {
+                                handleFirstNameChange(it)
+                            }
                         }
+                    }
+
+                }
+
+                if (!errors.firstName.isNullOrEmpty() && state.touched.contains("firstName")) {
+                    styledP {
+                        css {
+                            +Styles.error
+                        }
+
+                        +errors.firstName!!
+                    }
+                }
+                styledButton {
+                    css {
+                        +Styles.submit
+                    }
+                    if (state.firstName.isNotBlank()) {
+                        +"Sign up as ${state.firstName}"
+                    } else {
+                        +"Sign up"
                     }
                 }
             }
-            if (!errors.firstName.isNullOrEmpty() && state.touched.contains("firstName")) {
-                p("error-message") {
-                    +errors.firstName!!
-                }
-            }
-            button {
-                if (state.firstName.isNotBlank()) {
-                    +"Sign up as ${state.firstName}"
-                } else {
-                    +"Sign up"
-                }
-            }
         }
+
+    }
+}
+
+object Styles : StyleSheet("Styles", false) {
+    val root by css {
+        paddingTop = 50.px
+        display = Display.flex
+        alignItems = Align.center
+        justifyContent = JustifyContent.center
+        fontFamily = "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,Oxygen-Sans,Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif"
+        fontSize = 18.px
+    }
+    val form by css {
+        display = Display.flex
+        flexWrap = FlexWrap.wrap
+        width = 400.px
+    }
+    val label by css {
+        padding(16.px)
+    }
+    val input by css {
+        padding(16.px)
+        margin(16.px)
+        fontSize = 14.px
+    }
+    val error by css {
+        color = Color("palevioletred")
+        backgroundColor = Color("papayawhip")
+        padding(24.px)
+        width = 100.pct
+        alignSelf = Align.center
+    }
+    val submit by css {
+        padding(16.px)
+        fontSize = 18.px
+        backgroundColor = Color("palevioletred")
+        color = Color("papayawhip")
+        border = "none"
+        width = 100.pct
     }
 }
 

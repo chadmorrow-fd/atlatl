@@ -48,6 +48,8 @@ kotlinFrontend {
     npm {
         dependency("react", "16.3.2")
         dependency("react-dom", "16.3.2")
+        dependency("styled-components", "3.2.6")
+        dependency("inline-style-prefixer", "3.0.5")
     }
     webpackBundle {
         bundleName = "main"
