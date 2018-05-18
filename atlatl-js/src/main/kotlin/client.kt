@@ -61,7 +61,7 @@ class App : RComponent<RProps, AppState>() {
     private fun handleSubmit(event: Event) {
         event.preventDefault()
         if (state.firstName.isNotBlank()) {
-            val postData = FirstName(firstName = state.firstName)
+            val postData = FirstName(state.firstName)
             val requestOpts = RequestInit(
                     method = "POST",
                     body = JSON.stringify(postData),
@@ -89,14 +89,10 @@ class App : RComponent<RProps, AppState>() {
     override fun RBuilder.render() {
         val errors = validate(inputs = state.firstName)
         styledDiv {
-            css {
-                +Styles.root
-            }
+            css { +Styles.root }
 
             styledForm {
-                css {
-                    +Styles.form
-                }
+                css { +Styles.form }
 
                 attrs {
                     onSubmitFunction = {
@@ -105,14 +101,11 @@ class App : RComponent<RProps, AppState>() {
                 }
 
                 styledLabel {
-                    css {
-                        +Styles.label
-                    }
+                    css { +Styles.label }
+
                     +"First Name"
                     styledInput {
-                        css {
-                            +Styles.input
-                        }
+                        css { +Styles.input }
 
                         attrs {
                             id = "firstName"
@@ -127,22 +120,18 @@ class App : RComponent<RProps, AppState>() {
                             }
                         }
                     }
-
                 }
 
                 if (!errors.firstName.isNullOrEmpty() && state.touched.contains("firstName")) {
                     styledP {
-                        css {
-                            +Styles.error
-                        }
+                        css { +Styles.error }
 
                         +errors.firstName!!
                     }
                 }
                 styledButton {
-                    css {
-                        +Styles.submit
-                    }
+                    css { +Styles.submit }
+
                     if (state.firstName.isNotBlank()) {
                         +"Sign up as ${state.firstName}"
                     } else {
@@ -151,7 +140,6 @@ class App : RComponent<RProps, AppState>() {
                 }
             }
         }
-
     }
 }
 
@@ -164,19 +152,23 @@ object Styles : StyleSheet("Styles", false) {
         fontFamily = "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,Oxygen-Sans,Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif"
         fontSize = 18.px
     }
+
     val form by css {
         display = Display.flex
         flexWrap = FlexWrap.wrap
         width = 400.px
     }
+
     val label by css {
         padding(16.px)
     }
+
     val input by css {
         padding(16.px)
         margin(16.px)
         fontSize = 14.px
     }
+
     val error by css {
         color = Color("papayawhip")
         backgroundColor = Color("palevioletred")
@@ -184,6 +176,7 @@ object Styles : StyleSheet("Styles", false) {
         width = 100.pct
         alignSelf = Align.center
     }
+
     val submit by css {
         padding(16.px)
         fontSize = 18.px

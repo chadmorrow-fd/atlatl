@@ -2,39 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908a6df7-31e4-4a43-8324-508891a6b9aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/chadmorrow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/atlatl-js/atlatl-js.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/atlatl-jvm/atlatl-jvm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/atlatl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atlatl-js/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atlatl-js/src/main/kotlin/client.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atlatl-js/src/main/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atlatl-js/webpack.config.d/minify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atlatl-jvm/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atlatl-jvm/src/main/kotlin/server.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/common/types/firstName.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/common/types/helloWorld.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -128,8 +103,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atlatl-js/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1049">
-              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            <state relative-caret-position="1530">
+              <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -137,7 +112,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atlatl-jvm/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="30">
               <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
             </state>
           </provider>
@@ -146,11 +121,8 @@
       <file leaf-file-name="server.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atlatl-jvm/src/main/kotlin/server.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#137#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -158,10 +130,10 @@
       <file leaf-file-name="client.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atlatl-js/src/main/kotlin/client.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+            <state relative-caret-position="1245">
+              <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
               <folding>
-                <element signature="e#0#448#0" expanded="true" />
+                <element signature="e#0#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,17 +142,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+            <state relative-caret-position="1313">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -195,6 +158,11 @@
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>none</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -903,10 +871,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$USER_HOME$/.gradle/gradle.properties" value="1778881419" />
-        <entry key="$PROJECT_DIR$" value="10669895272000" />
+        <entry key="$USER_HOME$/.gradle/gradle.properties" value="2029964674" />
+        <entry key="$PROJECT_DIR$" value="10676287236000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/atlatl-js/build.gradle" value="1090884163" />
+        <entry key="$PROJECT_DIR$/atlatl-js/build.gradle" value="1565545065" />
         <entry key="$PROJECT_DIR$/atlatl-jvm/build.gradle" value="1881858538" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1899285366" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
@@ -1221,10 +1189,10 @@
         <option value="$PROJECT_DIR$/atlatl-js/webpack.config.d/minify.js" />
         <option value="$PROJECT_DIR$/atlatl-js/webpack.config.d/html-webpack-plugin.js" />
         <option value="$PROJECT_DIR$/atlatl-js/src/main/web/index.html" />
-        <option value="$PROJECT_DIR$/atlatl-js/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/common/types/firstName.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/common/types/helloWorld.kt" />
         <option value="$PROJECT_DIR$/atlatl-jvm/src/main/kotlin/server.kt" />
+        <option value="$PROJECT_DIR$/atlatl-js/build.gradle" />
         <option value="$PROJECT_DIR$/atlatl-js/src/main/kotlin/client.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
@@ -1248,7 +1216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1256,12 +1224,64 @@
               <item name="atlatl" type="b2602c69:ProjectViewProjectNode" />
               <item name="atlatl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="atlatl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlatl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="atlatl-js" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlatl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlatl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="atlatl-js" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlatl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlatl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="atlatl-js" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlatl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlatl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="atlatl-js" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlatl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlatl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="atlatl-jvm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlatl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlatl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="atlatl-jvm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlatl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlatl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="atlatl-jvm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlatl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlatl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="atlatl-jvm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1276,6 +1296,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="PsiViewer.ProjectComponent">
+    <option name="HIGHLIGHT" value="false" />
+    <option name="FILTER_WHITESPACE" value="false" />
+    <option name="SHOW_PROPERTIES" value="true" />
+    <option name="SPLIT_DIVIDER_POSITION" value="300" />
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1296,29 +1324,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.atlatl [clean]">
+  <component name="RunManager" selected="Gradle.atlatl [run]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="atlatl [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
     </configuration>
     <configuration name="atlatl [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -1352,6 +1363,23 @@
           </list>
         </option>
         <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="atlatl [webpack-run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="webpack-run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
     <configuration name="atlatl [webpack-stop]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -1433,19 +1461,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.atlatl [clean]" />
       <item itemvalue="Gradle.atlatl [webpack-stop]" />
       <item itemvalue="Gradle.atlatl [run]" />
       <item itemvalue="Gradle.atlatl [stop]" />
+      <item itemvalue="Gradle.atlatl [webpack-run]" />
       <item itemvalue="Kotlin.ServerKt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.ServerKt" />
-        <item itemvalue="Gradle.atlatl [stop]" />
+        <item itemvalue="Gradle.atlatl [webpack-run]" />
         <item itemvalue="Gradle.atlatl [run]" />
+        <item itemvalue="Gradle.atlatl [stop]" />
         <item itemvalue="Gradle.atlatl [webpack-stop]" />
-        <item itemvalue="Gradle.atlatl [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -1462,17 +1490,52 @@
       <workItem from="1524698685819" duration="4465000" />
       <workItem from="1524763395075" duration="6033000" />
       <workItem from="1524846771079" duration="6591000" />
+      <workItem from="1525362195428" duration="3588000" />
+      <workItem from="1526511891600" duration="1994000" />
+      <workItem from="1526577393289" duration="397000" />
+      <workItem from="1526594408495" duration="6346000" />
+      <workItem from="1526661598942" duration="20000" />
     </task>
+    <task id="LOCAL-00001" summary="Swap fetch in for xmlhttprequest">
+      <created>1526595333818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526595333818</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Swap fetch in for xmlhttprequest">
+      <created>1526595459616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526595459616</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add styled components">
+      <created>1526600663902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526600663902</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TIL making an input fill the remaining space is not as trivial as it first seemed.">
+      <created>1526661322001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526661322001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17089000" />
+    <option name="totallyTimeSpent" value="29434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-1637" width="1440" height="2537" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Cargo" order="4" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -1480,38 +1543,38 @@
       <window_info anchor="right" id="Leiningen" order="3" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info anchor="bottom" id="Build" order="2" sideWeight="0.49641833" weight="0.32923833" />
       <window_info anchor="bottom" id="Tail" order="3" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.78939825" weight="0.3998351" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.502149" weight="0.32923833" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.49928367" visible="true" weight="0.32964784" />
-      <window_info anchor="bottom" content_ui="combo" id="Project" order="13" sideWeight="0.5007163" side_tool="true" visible="true" weight="0.32964784" />
+      <window_info anchor="right" id="PsiViewer" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49928367" weight="0.32964784" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49426934" weight="0.32882884" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49856734" weight="0.3293487" />
+      <window_info active="true" anchor="bottom" content_ui="combo" id="Project" order="13" sideWeight="0.5057307" side_tool="true" visible="true" weight="0.32882884" />
       <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.22277936" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="2" sideWeight="0.495702" weight="0.32923833" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Build" order="2" sideWeight="0.49641833" weight="0.32923833" />
       <window_info id="Designer" order="1" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.5028653" visible="true" weight="0.32923833" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.5028653" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1519,6 +1582,7 @@
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info id="Capture Tool" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -1546,7 +1610,184 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Swap fetch in for xmlhttprequest" />
+    <MESSAGE value="Add styled components" />
+    <MESSAGE value="TIL making an input fill the remaining space is not as trivial as it first seemed." />
+    <option name="LAST_COMMIT_MESSAGE" value="TIL making an input fill the remaining space is not as trivial as it first seemed." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.2.40/b25b50fe542ef5b2c944e51901cd6b7ab4bf15c1/kotlin-stdlib-js-1.2.40-sources.jar!/org.w3c/org.w3c.fetch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/src/main/kotlin/client.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="84" column="61" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-jvm/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-jvm/src/main/kotlin/server.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/src/main/kotlin/client.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="88" column="68" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.2.40/b25b50fe542ef5b2c944e51901cd6b7ab4bf15c1/kotlin-stdlib-js-1.2.40-sources.jar!/org.w3c/org.w3c.dom.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65520">
+          <caret line="2201" column="8" selection-start-line="2201" selection-start-column="8" selection-end-line="2201" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.2.40/b25b50fe542ef5b2c944e51901cd6b7ab4bf15c1/kotlin-stdlib-js-1.2.40-sources.jar!/org.w3c/org.w3c.fetch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-jvm/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-jvm/src/main/kotlin/server.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.2.40/b25b50fe542ef5b2c944e51901cd6b7ab4bf15c1/kotlin-stdlib-js-1.2.40-sources.jar!/org.w3c/org.w3c.dom.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65520">
+          <caret line="2201" column="8" selection-start-line="2201" selection-start-column="8" selection-end-line="2201" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.2.40/b25b50fe542ef5b2c944e51901cd6b7ab4bf15c1/kotlin-stdlib-js-1.2.40-sources.jar!/org.w3c/org.w3c.fetch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/src/main/kotlin/client.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1484">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-jvm/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-jvm/src/main/kotlin/server.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/src/main/kotlin/client.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/atlatl-js/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
@@ -1565,9 +1806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#448#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1578,16 +1816,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atlatl-js/webpack.config.d/html-webpack-plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/webpack.config.d/html-webpack-plugin.js" />
     <entry file="file://$PROJECT_DIR$/atlatl-js/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1416">
@@ -1613,9 +1842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#137#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1627,39 +1853,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atlatl-jvm/build/classes/kotlin/main/HelloWorld.class" />
-    <entry file="file://$PROJECT_DIR$/atlatl-js/build/bundle/main.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/build/bundle/main.bundle.js" />
     <entry file="file://$PROJECT_DIR$/atlatl-js/build/webpack-dev-server-run.js" />
-    <entry file="file://$PROJECT_DIR$/atlatl-js/webpack.config.d/html-webpack-plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.2.40/b25b50fe542ef5b2c944e51901cd6b7ab4bf15c1/kotlin-stdlib-js-1.2.40-sources.jar!/org.w3c/org.w3c.dom.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="2201" column="8" selection-start-line="2201" selection-start-column="8" selection-end-line="2201" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/webpack.config.d/html-webpack-plugin.js" />
     <entry file="file://$PROJECT_DIR$/atlatl-jvm/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="30">
           <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
         </state>
       </provider>
@@ -1685,23 +1884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atlatl-js/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1049">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atlatl-jvm/src/main/kotlin/server.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/common/types/helloWorld.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1716,23 +1898,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.2.40/b25b50fe542ef5b2c944e51901cd6b7ab4bf15c1/kotlin-stdlib-js-1.2.40-sources.jar!/org.w3c/org.w3c.dom.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="2201" column="8" selection-start-line="2201" selection-start-column="8" selection-end-line="2201" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-jvm/src/main/kotlin/server.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlatl-js/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.2.40/b25b50fe542ef5b2c944e51901cd6b7ab4bf15c1/kotlin-stdlib-js-1.2.40-sources.jar!/org.w3c/org.w3c.fetch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/kotlin-css/1.0.0-pre.27-kotlin-1.2.30/b890900e88e7d0f9f16210d20e969872f467053c/kotlin-css-1.0.0-pre.27-kotlin-1.2.30-sources.jar!/kotlinx/css/StyledElement.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="173" column="17" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/atlatl-js/src/main/kotlin/client.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+        <state relative-caret-position="1245">
+          <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
           <folding>
-            <element signature="e#0#448#0" expanded="true" />
+            <element signature="e#0#476#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules/atlatl-js/atlatl-js.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="1313">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
