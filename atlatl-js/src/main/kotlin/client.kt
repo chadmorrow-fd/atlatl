@@ -178,8 +178,8 @@ object Styles : StyleSheet("Styles", false) {
         fontSize = 14.px
     }
     val error by css {
-        color = Color("palevioletred")
-        backgroundColor = Color("papayawhip")
+        color = Color("papayawhip")
+        backgroundColor = Color("palevioletred")
         padding(24.px)
         width = 100.pct
         alignSelf = Align.center
@@ -187,8 +187,8 @@ object Styles : StyleSheet("Styles", false) {
     val submit by css {
         padding(16.px)
         fontSize = 18.px
-        backgroundColor = Color("palevioletred")
-        color = Color("papayawhip")
+        backgroundColor = Color("papayawhip")
+        color = Color("palevioletred")
         border = "none"
         width = 100.pct
     }
